@@ -7,7 +7,26 @@
 <script src="./p5.play.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
 
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBkN88hjU_Ec-sLWtoZBX-IC-b0chRQ9HM",
+    authDomain: "ball-game-50f5e.firebaseapp.com",
+    databaseURL: "https://ball-game-50f5e.firebaseio.com",
+    projectId: "ball-game-50f5e",
+    storageBucket: "ball-game-50f5e.appspot.com",
+    messagingSenderId: "380860615781",
+    appId: "1:380860615781:web:1b94804693f0e2bcefca8c"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
   </head>
   <body>
       <script src="sketch.js"></script>
